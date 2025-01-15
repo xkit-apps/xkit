@@ -1,0 +1,29 @@
+[package]
+name = "xkit-tauri"
+version = "0.1.0"
+description = "A Xkit Apps"
+authors.workspace = true
+repository.workspace = true
+categories.workspace = true
+license.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+
+[lib]
+
+name = "xkit_tauri_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon", "unstable"] }
+tauri-plugin-opener = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+# tauri 插件
+tauri-plugin-positioner = { version = "2", features = ["tray-icon"] }
+tauri-plugin-log = "2.2.0"
+tokio = { workspace = true, features = ["rt-multi-thread", "parking_lot"] }
+log = "0.4.22"

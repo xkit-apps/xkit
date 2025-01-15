@@ -1,0 +1,18 @@
+[workspace]
+members = ["crates/xkit-tauri", "crates/xkit-settings", "crates/xkit-plugin"]
+resolver = "2"
+
+[workspace.package]
+authors = ["kit-tool"]
+repository = "https://github.com/xkit-apps/xkit"
+categories = ["tools"]
+license = "MIT"
+edition = "2021"
+rust-version = "1.77.2"
+
+[workspace.dependencies]
+
+tokio = { version = "1.42.0", default-features = false }
+
+kit-plugin = { path = "crates/kit-plugin" }
+kit-settings = { path = "crates/kit-plugin" }

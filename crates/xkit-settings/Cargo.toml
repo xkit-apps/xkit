@@ -1,0 +1,10 @@
+[package]
+name = "xkit-settings"
+version = "0.1.0"
+description = "A Xkit Apps"
+authors.workspace = true
+repository.workspace = true
+categories.workspace = true
+license.workspace = true
+edition.workspace = true
+rust-version.workspace = true

@@ -1,0 +1,30 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm tauri dev",
+    "build": "pnpm tauri build",
+    "dev:kit": "pnpm -F kit dev",
+    "build:kit": "pnpm -F kit build"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@tauri-apps/cli": "^2.2.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "prettier": "^3.4.1",
+    "typescript": "~5.6.2",
+    "typescript-eslint": "^8.15.0"
+  },
+  "engines": {
+    "node": ">=16.15.1",
+    "pnpm": ">=8.1.0"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
