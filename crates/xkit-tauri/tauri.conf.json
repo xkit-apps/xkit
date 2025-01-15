@@ -20,10 +20,9 @@
     "icon": [
       "icons/logo.png",
       "icons/logo64x64.png",
-      "icons/logo96x96.png",
       "icons/logo128x128.png",
-      "icons/icon.icns",
-      "icons/icon.ico"
+      "icons/logo.icns",
+      "icons/logo.ico"
     ]
   }
 }

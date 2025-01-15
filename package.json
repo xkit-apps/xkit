@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "pnpm tauri dev",
     "build": "pnpm tauri build",
-    "dev:kit": "pnpm -F kit dev",
-    "build:kit": "pnpm -F kit build"
+    "dev:kit": "pnpm -F xkit dev",
+    "build:kit": "pnpm -F xkit build"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
